@@ -1,4 +1,5 @@
 require 'pry'
+
 # Write your code here.
 def dictionary
   sub_hash = {
@@ -33,6 +34,7 @@ def bulk_tweet_shortener(array_tweets)
 end
 
 def selective_tweet_shortener(tweet)
+  binding.pry
   if tweet.length < 140
     puts tweet
   else
