@@ -42,8 +42,6 @@ def selective_tweet_shortener(tweet)
 end
 
 def shortened_tweet_truncator(tweet)
-  if tweet = nil
-    puts "Try again"
   elsif tweet.length < 140
     puts tweet
   else
